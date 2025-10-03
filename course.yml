@@ -1,0 +1,7 @@
+course:
+  identifier: "intro-relate"
+  title: "Introducción a Relate"
+  start_date: "2025-10-01"
+  end_date: "2026-01-01"
+  listed: true
+  access: public
