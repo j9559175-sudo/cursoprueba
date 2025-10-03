@@ -1,0 +1,20 @@
+exam:
+  title: "Quiz básico"
+  description: "Ponte a prueba con lo aprendido."
+  access_rules:
+    - if_after: "2025-10-05"
+  groups:
+    - id: "grupo_1"
+      pages:
+        - type: "questions"
+          id: "pagina_1"
+          questions:
+            - type: "multiple_choice"
+              id: "pregunta_1"
+              question: "¿Qué es Relate?"
+              choices:
+                - "Un navegador"
+                - "Una red social"
+                - "Una plataforma de aprendizaje"  # correcta
+                - "Un videojuego"
+              correct_answer: 2
